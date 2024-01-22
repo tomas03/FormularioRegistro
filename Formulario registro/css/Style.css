@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    position:fixed;
+    top: 5%;
+    left: 20%;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.form h2{
+    text-align: center;
+}
+.form-reg{
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.f1 input{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.f2 input{
+    width: 63.5%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.f3 input{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.form-reg button{
+    margin-left: 2%;
+    width: 65%;
+    height: 30px;
+    background-color: green;
+}
+.table-clientes{
+    margin-top: 5%;
+    border-collapse: collapse;
+    margin: auto;
+}
+thead{
+    background-color: aqua;
+}
+.thead th{
+    padding: 10px;
+    border: none;
+}
+.tbody{
+    background-color: cadetblue;
+}
+.tbody td{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.remover{
+    background-color: green;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
